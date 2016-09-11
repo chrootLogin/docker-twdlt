@@ -50,7 +50,7 @@ Twdlt is setup through environment variables:
 * **EVERY** - *default: 60* - how often to check for tweets to delete, in minutes.
 * **EXCLUDE** - List of Python formatted Regex's, any tweets that match any regex will use `AT_AGE` instead of `AGE`
 
-*Twitter-API setting*
+*Twitter-API settings*
 
 * **CONSUMER_KEY**
 * **CONSUMER_SECRET**
