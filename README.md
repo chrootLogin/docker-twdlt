@@ -48,7 +48,7 @@ Twdlt is setup through environment variables:
 * **MAX_PAGE** - *default: 5* - maximum number of pages to fetch*
 * **USE_LIMIT** - *default: 0.25* - maximum % of rate limit for a resource that will be used
 * **EVERY** - *default: 60* - how often to check for tweets to delete, in minutes.
-* **EXCLUDE** - List of Python formatted Regex's, any tweets that match any regex will use `atAge` instead of `age`
+* **EXCLUDE** - List of Python formatted Regex's, any tweets that match any regex will use `AT_AGE` instead of `AGE`
 
 *Twitter-API setting*
 
