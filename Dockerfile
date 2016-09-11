@@ -1,5 +1,5 @@
 FROM rootlogin/python2
-MAINTAINER Simon Erhardt <me+dockerootlogin.ch>
+MAINTAINER Simon Erhardt <me+docker@rootlogin.ch>
 
 ENV AGE=24 \
   AT_AGE=24 \
