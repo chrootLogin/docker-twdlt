@@ -1,0 +1,11 @@
+version: '2'
+services:
+  twdlt:
+    image: rootlogin/twdlt
+    environment:
+      AGE: 24
+      AT_AGE: 24
+      CONSUMER_KEY: null
+      CONSUMER_SECRET: null
+      ACCESS_TOKEN: null
+      ACCESS_SECRET: null
