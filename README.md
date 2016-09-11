@@ -49,6 +49,7 @@ Twdlt is setup through environment variables:
 * **USE_LIMIT** - *default: 0.25* - maximum % of rate limit for a resource that will be used
 * **EVERY** - *default: 60* - how often to check for tweets to delete, in minutes.
 * **EXCLUDE** - List of Python formatted Regex's, any tweets that match any regex will use `AT_AGE` instead of `AGE`
+* **VERBOSE** - Set `yes` to run in verbose mode. (debug)
 
 *Twitter-API settings*
 

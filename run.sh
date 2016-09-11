@@ -16,4 +16,8 @@ cat <<EOF > /opt/twdlt/config.json
 }
 EOF
 
-exec twdlt -v -c /opt/twdlt/config.json
+if [ "$VERBOSE" == "yes" ]; then
+  exec twdlt -v -c /opt/twdlt/config.json
+else
+  exec twdlt -c /opt/twdlt/config.json
+fi
