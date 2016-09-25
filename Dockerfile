@@ -25,4 +25,4 @@ RUN chmod +x /opt/twdlt/run.sh
 RUN git clone https://github.com/YoSmudge/twdlt.git /opt/twdlt/src
 RUN cd /opt/twdlt/src && pip install -r requirements.txt
 
-ENTRYPOINT ["/opt/twdlt/run.sh"]
+CMD ["/opt/twdlt/run.sh"]
