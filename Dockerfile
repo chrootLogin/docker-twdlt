@@ -1,4 +1,4 @@
-FROM rootlogin/python2
+FROM python:2-alpine
 MAINTAINER Simon Erhardt <me+docker@rootlogin.ch>
 
 ENV AGE=24 \
